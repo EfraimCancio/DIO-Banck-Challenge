@@ -1,14 +1,8 @@
 package client;
 
 
-public class PhysicalPerson {
-    public String name;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+public class PhysicalPerson extends Client {
+    public PhysicalPerson() {
+        this.status = "Pessoa Física";
     }
 }
